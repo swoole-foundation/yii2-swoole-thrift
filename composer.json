@@ -1,0 +1,33 @@
+{
+  "name": "swoole-foundation/yii2-swoole-thrift",
+  "description": "running thrift app on swoole with yii2 framework",
+  "type": "project",
+  "keywords": [
+    "swoole",
+    "thrift",
+    "rpc",
+    "yii2"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "xialeistudio",
+      "email": "xialeistudio@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "swoole-foundation/swoole-thrift": "^1.0",
+    "yiisoft/yii2": "^2.0",
+    "ext-pcntl": "*",
+    "ext-posix": "*"
+  },
+  "require-dev": {
+    "eaglewu/swoole-ide-helper": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "./"
+    }
+  }
+}
