@@ -7,6 +7,12 @@
 
 以上优点通过本项目已经整合在一起，开箱即用，加速您的开发!
 
+## 快速开始
+
+基于composer创建项目即可
+```bash
+composer create-project swoole-foundation/yii2-swoole-thrift app
+```
 ## 环境要求
 
 + PHP 7.0+
